@@ -4,8 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Minha festa de aniversário começa em <span id="clock"></span>
+            </p>
+            <div class="info-bar">
+                <ul class="info-bar__list">
+                    <li class="info-bar__list__item">
+                        <b>Localização</b>
+                        São José - Campo Limpo Paulista - SP
+                    </li>
+                    <li class="info-bar__list__item">
+                        <b>Quando</b>
+                        10/10/2024 às 18:00hrs
+                    </li>
+                    <a href="#" class="button button--primary">
+                        Garanta seu convite
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="content cake">
+        <div class="container" data-aos="fade-left">
+            <div class="content__details">
+                <h2 class="content__details__title">Bolo</h2>
+                <p class="content__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti rerum quae laboriosam maxime quasi veniam reprehenderit deserunt magnam veritatis velit ut ipsam distinctio, excepturi architecto, eum odit nihil placeat odio!
+                </p>
+            </div>
+            <img class="content__image" src="./images/bolo.png" alt="bolo">
+        </div>
+    </section>
+    <section class="content snacks content__left">
+        <div class="container" data-aos="fade-right">
+            <div class="content__details">
+                <h2 class="content__details__title">Salgados</h2>
+                <p class="content__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti rerum quae laboriosam maxime quasi veniam reprehenderit deserunt magnam veritatis velit ut ipsam distinctio, excepturi architecto, eum odit nihil placeat odio!
+                </p>
+            </div>
+            <img class="content__image" src="./images/salgados.png" alt="salgados">
+        </div>
+    </section>
+    <section class="content sodas">
+        <div class="container" data-aos="fade-left">
+            <div class="content__details">
+                <h2 class="content__details__title">Refrigerantes</h2>
+                <p class="content__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti rerum quae laboriosam maxime quasi veniam reprehenderit deserunt magnam veritatis velit ut ipsam distinctio, excepturi architecto, eum odit nihil placeat odio!
+                </p>
+            </div>
+            <img class="content__image" src="./images/refrigerantes.png" alt="refrigerantes.png">
+        </div>
+    </section>
+    <section class="content barbecue content__left">
+        <div class="container" data-aos="fade-right">
+            <div class="content__details">
+                <h2 class="content__details__title">Churrasco</h2>
+                <p class="content__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti rerum quae laboriosam maxime quasi veniam reprehenderit deserunt magnam veritatis velit ut ipsam distinctio, excepturi architecto, eum odit nihil placeat odio!
+                </p>
+            </div>
+            <img class="content__image" src="./images/churrasco.png" alt="churrasco.png">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>

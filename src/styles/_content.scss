@@ -1,0 +1,35 @@
+.content {
+    .container {
+        padding: 24px 0;
+        display: flex;
+        gap: 15px;
+    }
+
+    &__left {
+        .container {
+            flex-direction: row-reverse;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .container {
+            flex-direction: column;
+        }
+    }
+}
+
+.cake {
+    background-image: linear-gradient(#7B1BA7, #442BDB);
+}
+
+.snacks {
+    background-image: linear-gradient(#442BDB, #226A89);
+}
+
+.sodas {
+    background-image: linear-gradient(#226A89, #871D9C);
+}
+
+.barbecue {
+    background-image: linear-gradient(#871D9C, #000);
+}

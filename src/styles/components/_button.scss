@@ -1,0 +1,15 @@
+.button {
+    background-color: #000;
+    border-radius: 5px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+
+    @media (max-width: 640px) {
+        width: 100%;
+    }
+}
